@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo-Alura">
+            <img src="assets/images/Logo.png" alt="Logo Alura" id="logo-Alura">
+        </div>
+    </header>
+
+    <main>
+        <section class="campo-contenido">
+            <form id="Interactuar">
+                <div class="campo-ingresar">
+                    <textarea id="campo-escribir" class="campo-texto" placeholder="Ingrese el texto aqui" rows="300" cols="300"></textarea>
+                </div>
+                <div class="solo_minusculas">
+                    <img src="assets/images/Vector.svg" alt="Vector">
+                    <p class="vector">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones-usuario">
+                    <input type="button" id="boton-encriptar" class="boton-encriptar" value="Encriptar">
+                    <input type="button" id="boton-desencriptar" class="boton-desencriptar" value="Desencriptar">
+                </div>
+            </form>
+        </section>
+
+        <section class="campo-desencriptado">
+            <img src="assets/images/Munieco.svg" alt="Munieco" id="img-munieco" class="img-munieco" width="300px">
+            <p id="txt-msj" class="txt-msj">Ningún mensaje fue encontrado</p>
+            <p id="txt-msj-2" class="txt-msj-2">Ingresa el texto que desees encriptar o desencriptar</p>
+            <textarea name="input-desencriptado" id="input-desencriptado" class="input-desencriptado" hidden></textarea>
+            <input type="button" value="Copiar" id="boton-copiar" class="boton-copiar" hidden>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy Matias Fernandez. Contacto: <a href="https://www.linkedin.com/in/matias-hernan-fernandez/" target="_blank"><img src="assets/images/logo-linkedin.svg" alt="linkedin" class="img-contacto"></a></p>
+    </footer>
+
+    <script src="JS/comportamiento.js"></script>
+</body>
+</html>

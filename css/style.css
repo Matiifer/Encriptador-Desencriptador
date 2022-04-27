@@ -1,0 +1,168 @@
+body{
+    /* position: relative; */
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1024px;
+    /* background-color: aliceblue; */
+    background: linear-gradient(rgb(210, 210, 230), aliceblue);
+}
+
+.logo-Alura{
+    position: absolute;
+    top: 40px;
+    left: 84px;
+}
+
+.campo-contenido{
+    position: absolute;
+    top: 168px;
+    left: 240px;
+    width: 900px;
+}
+
+.campo-ingresar .campo-texto{
+    width: 900px;
+    height: 480px;
+    border: 0;
+    outline: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+    /* background-color: aliceblue; */
+    background: linear-gradient(#D9DAEC, #E7ECF7);
+    overflow: hidden;
+    resize: none;
+}
+
+.solo_minusculas{
+    position: absolute;
+    top: 550px;
+    left: 150px;
+}
+
+.solo_minusculas .vector{
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.botones-usuario .boton-encriptar{
+    position: absolute;
+    top: 600px;
+    left: 120px;
+
+    width: 300px;
+    height: 67px;
+    color: white;
+    background-color: #0A3871;
+    border-radius: 24px;
+    margin: 0 24px;
+}
+
+.botones-usuario .boton-desencriptar{
+    position: absolute;
+    top: 600px;
+    left: 440px;
+
+    width: 300px;
+    height: 67px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    margin: 0 24px;
+}
+
+.campo-desencriptado{
+    position: absolute;
+    top: 30px;
+    left: 1420px;
+    right: 40px;
+
+    width: 400px;
+    height: 900px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px #0A3871;
+    border-radius: 32px;
+}
+
+.campo-desencriptado .boton-copiar{
+    position: absolute;
+    top: 715px;
+    left: 30px;
+
+    width: 300px;
+    height: 67px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    margin: 0 24px;
+}
+
+.campo-desencriptado .input-desencriptado{  /* esto viene desde JS */
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    right: 40px;
+
+    width: 350px;
+    height: 400px;
+    border: 0;
+    outline: none; 
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    color: darkblue;
+    background-color: aliceblue;
+    overflow: hidden;
+    resize: none;
+}
+
+.campo-desencriptado .img-munieco{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    right: 40px;
+}
+
+.campo-desencriptado .txt-msj{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    right: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.campo-desencriptado .txt-msj-2{
+    position: absolute;
+    top: 580px;
+    left: 50px;
+    right: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    top: 900px;
+    left: 150px;
+    width: 400px;
+    font-style:oblique;
+    font-weight: bold;
+}
+
+footer .img-contacto{
+    max-width: 30px;
+    max-height: 30px;
+}
